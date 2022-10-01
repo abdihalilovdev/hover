@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 30px;
+    color: red;
+    background: yellow;
+    border: 2px solid red;
+    transition: .4s;
+}
+
+.btn:hover {
+    background: red;
+    color: yellow;
+    border: 2px solid yellow;
+    transform: scale(1.1);
+}
+
+.btn2 {
+    padding: 10px 30px;
+    color: white;
+    background: blue;
+    border: 2px solid red;
+    transition: .4s;
+}
+
+.btn2:active {
+    color: blue;
+    background: white;
+    border: 2px solid blue;
+}
+
+.btn3 {
+    padding: 10px 30px;
+    color: orange;
+    background: green;
+    border: 2px solid orange;
+    transition: .4s;
+}
+
+.btn3:focus {
+    background: orange;
+    color: green;
+    border: 2px solid green;
+}
+
+.block {
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 3px 13px black;
+    transition: .4s;
+    position: relative;
+}
+
+.block:hover {
+    transform: scale(1.2);
+    margin-left: 10px;
+
+}
+.block:before {
+    position: absolute;
+    content: "";
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 3px 13px black;
+    left: 200px;
+}
+.block:after {
+    position: absolute;
+    content: "";
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 3px 13px black;
+    top: 200px;
+    left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
